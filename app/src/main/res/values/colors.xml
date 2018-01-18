@@ -8,4 +8,8 @@
     <color name="colorRaisedButtonText">#FFFF</color>
     <color name="colorFlatButton">#2196F3</color>
     <color name="colorFab">#673AB7</color>
+    <color name="colorSwitch">#40C4FF</color>
+    <color name="colorEnableCheckbox">#FF6E40</color>
+    <color name="colorDisableCheckbox">#FFAB40</color>
+    <color name="colorRadioButton">#69F0AE</color>
 </resources>

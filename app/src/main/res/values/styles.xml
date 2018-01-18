@@ -20,6 +20,19 @@
     <style name="FlatButton" parent="Widget.AppCompat.Button.Borderless">
         <item name="android:textColor">@color/colorFlatButton</item>
     </style>
+    
+    <style name="SwitchTheme">
+        <item name="colorAccent">@color/colorSwitch</item>
+    </style>
+
+    <style name="CheckboxTheme">
+        <item name="colorAccent">@color/colorEnableCheckbox</item>
+        <item name="colorControlNormal">@color/colorDisableCheckbox</item>
+    </style>
+
+    <style name="RadioButtonTheme">
+        <item name="colorAccent">@color/colorRadioButton</item>
+    </style>
 
 
 
