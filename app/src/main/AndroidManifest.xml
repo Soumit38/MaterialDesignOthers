@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MaterialRadioButton">
+        <activity android:name=".MaterialProgressDialog">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -19,7 +19,11 @@
         <activity android:name=".MaterialTexinputlayoutFeatures" />
         <activity android:name=".MaterialButtons" />
         <activity android:name=".MaterialSwitchButton" />
-        <activity android:name=".MaterialCheckbox"></activity>
+        <activity android:name=".MaterialCheckbox" />
+        <activity android:name=".MaterialRadioButton" />
+        <activity android:name=".MaterialProgressBar" />
+        <activity android:name=".MaterialDialogs" />
+        <activity android:name=".MaterialConfirmationDialog"></activity>
     </application>
 
 </manifest>

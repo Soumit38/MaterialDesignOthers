@@ -34,6 +34,18 @@
         <item name="colorAccent">@color/colorRadioButton</item>
     </style>
 
+    <style name="ProgressbarTheme" parent="Widget.AppCompat.ProgressBar">
+        <item name="colorAccent">@color/colorProgressBar</item>
+    </style>
+    
+    <style name="AlertDialogTheme" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorAccent">@color/colorAlertDialog</item>
+    </style>
+    
+    <style name="ConfirmationDialogTheme" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorAccent">@color/colorConfirmationDialog</item>
+    </style>
+
 
 
 </resources>
