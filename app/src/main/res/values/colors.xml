@@ -15,4 +15,8 @@
     <color name="colorProgressBar">#7C4DFF</color>
     <color name="colorAlertDialog">#448AFF</color>
     <color name="colorConfirmationDialog">#64FFDA</color>
+    <color name="colorSnackbarBackground">#00E676</color>
+    <color name="colorSnackbarText">#000000</color>
+    <color name="colorSnackbarActionText">#FFFF</color>
+    <color name="colorBottomNavigation">#009688</color>
 </resources>

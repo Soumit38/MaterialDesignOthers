@@ -2,4 +2,7 @@
     <string name="app_name">MaterialDesignOthers</string>
     <string name="raised_button">Raised Button</string>
     <string name="checkbox">checkbox</string>
+    <string name="near_by">Near by</string>
+    <string name="favourites">Favourites</string>
+    <string name="recents">Recents</string>
 </resources>

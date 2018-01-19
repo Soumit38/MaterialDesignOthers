@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.soumit.materialdesignothers.MaterialBottomNavigation">
+
+
+    <TextView
+        android:id="@+id/text_id"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="Recents"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <android.support.design.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.design.widget.BottomNavigationView
+            android:id="@+id/bottomnavigation_id"
+            android:background="?android:attr/windowBackground"
+            app:menu="@menu/bottom_navigation_menu"
+            app:theme="@style/BottomNavigationTheme"
+            android:layout_gravity="bottom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <!--will be placed before '>' tag-->
+            <!--app:itemBackground="@color/colorBottomNavigation"-->
+            <!--app:itemTextColor="@color/colorDisableCheckbox"-->
+            <!--app:itemIconTint="@color/colorError"-->
+
+        </android.support.design.widget.BottomNavigationView>
+
+    </android.support.design.widget.CoordinatorLayout>
+    
+    
+</RelativeLayout>
